@@ -1,6 +1,12 @@
-# PDE solver with Euler's method
+# C++ boilerplate application
 
-# Installation steps
+## Example: PDE solver with Euler's method
+
+This application is a starter project, in which you can develop modern c++ application using vcpkg dependecy manager. 
+
+See vcpkg.json, which contains three dependecies: opencv, eigen3 and gtest.
+
+## Installation steps
 
 **1.) Clone repository**
 
