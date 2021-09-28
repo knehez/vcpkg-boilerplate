@@ -1,4 +1,14 @@
-# C++ boilerplate application
+# Modern C++ development with vcpkg dependency manager - boilerplate application
+
+My motivation to create this repository is that, it's still very difficult (in 2021) to use a good cross-plattform dependency manager, if you like working with C++.
+First I tried the Conan dependency manager, but I experienced a lot of compatibility problems even on the same OS, when I tried to move the project to an other developer machine.
+
+Nowadays I tried to use vcpkg, I love it because it is using a similar json file like in javascript projects, to describe dependecies. 
+
+Pros:
+
+- to use vcpkg, you do not need any installer or third party tools, just you can download the source from github
+- after a 2 minutes installation you are able to compile from source a tons of third party packages. This process will create a vcpkg.cmake file, which you can set on user level or application level. (user level is more general approach)
 
 ## Example: PDE solver with Euler's method
 
